@@ -98,6 +98,7 @@ margin: auto;
 .Collection:hover{
     transform: scale(1.05);
     transition: ease-out 1s;
+    
 }
 .Collection img{
     width: 300px;
@@ -144,6 +145,7 @@ margin: auto;
     margin: 150px auto;  
     justify-content: center;
     align-items: center; 
+
 }
 .last-img{
     width: 50%;
@@ -195,4 +197,61 @@ footer p a{
 footer p a i:hover{
     transform: scale(1.3);
     transition: ease-in-out 1s;
+}
+
+
+@media only screen and (max-width:688px) {
+    .half-width img{
+       width: 100%;
+   }
+   .half-width .about{
+       width: 100%;
+
+   }
+   .first-section{
+       display: block;
+       width: 100%;
+   }
+   .second-section{
+       display: none;
+   }
+   .third-section{
+       width: 100%;
+       position: relative;
+   }
+   .Collections{
+       grid-template-columns: repeat(1,1fr);
+       width: 329px;
+       height: 4504px;
+    }
+    footer{
+        width: 306px;
+        height: 211px;
+    }
+    
+} 
+@media only screen and (min-width:689px) and (max-width:991px){
+    .half-width img{
+        width: 100%;
+    }
+    .half-width .about{
+        width: 100%;
+ 
+    }
+    .first-section{
+        display: block;
+        width: 100%;
+    }
+    .second-section{
+        display: none;
+    }
+    .third-section{
+        width: 100%;
+        position: relative;
+    }
+    .Collections{
+        grid-template-columns: repeat(2,1fr);
+        width: 329px;
+        height: 4504px;
+     }
 }
