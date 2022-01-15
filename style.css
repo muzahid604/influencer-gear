@@ -1,6 +1,9 @@
 body{
     margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgb(48, 39, 39);
+    font-weight: 600;
     background-color: rgb(210, 198, 245);
 }
 header{
@@ -175,7 +178,7 @@ margin-left: 100px;
 
 footer{
     padding: 15px;
-    height: 150px;
+    height: 180px;
     background-color: rgb(20, 20, 48);
     color: white;
     text-align: center;
