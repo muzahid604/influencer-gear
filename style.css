@@ -95,6 +95,10 @@ margin: auto;
     border-radius: 10px;
     
 }
+.Collection:hover{
+    transform: scale(1.05);
+    transition: ease-out 1s;
+}
 .Collection img{
     width: 300px;
     height: 256px;
@@ -126,6 +130,13 @@ margin: auto;
     color: black;
     margin-left: 20px;
 }
+.see-more-btn{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #25945e; 
+    float: right;   
+}
 
 .fourth-section{
     display: flex;
@@ -152,4 +163,36 @@ margin-left: 100px;
     margin-top: 10px;
     font-size: 30px;
     color:black;
+}
+/*------ end-fourth-section------ */
+
+/* start footer */
+
+footer{
+    padding: 15px;
+    height: 150px;
+    background-color: rgb(20, 20, 48);
+    color: white;
+    text-align: center;
+}
+.footer-title{
+    font-size: 35px;
+    margin-bottom: 10px;   
+}
+footer p{
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+footer p a{
+    margin:10px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    border-radius: 250px;
+}
+footer p a i:hover{
+    transform: scale(1.3);
+    transition: ease-in-out 1s;
 }
